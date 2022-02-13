@@ -1,0 +1,85 @@
+
+/*header*/
+.header{
+    border-bottom: thick solid salmon;
+  
+}
+.nav{
+    padding: 20px;
+    
+    margin-block-end: 15px;
+    text-align: center;
+    font-family: papyrus;
+}
+nav a{
+    letter-spacing: 3px;
+    font-weight: bolder;
+    margin-right: 30px;
+    font-size: 20px;
+    color: rgb(241, 106, 91);
+    font-weight: bolder;
+    }
+
+.salonname{
+    color: rgb(241, 106, 91);
+    font-weight: bolder;
+    font-size: 50px;
+}
+
+#name{
+    color: black;
+}
+.area{
+    color: black;
+}
+
+input.select{
+    width: 50%;
+    padding: 2px;
+    border: 2px solid black;
+    margin: 5px;
+}
+
+
+body{
+    background-color: lightgray;
+    font-family: papyrus;
+    text-align: center;
+    line-height: 2;
+    
+    border: solid salmon;
+    border-width: thick;
+    
+}
+
+.pets{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    column-gap: 1rem;
+    margin-top: 3rem;
+
+}
+
+.pet-card{
+    border: 2px solid black;
+    padding: 1rem;
+}
+.footer{
+    border-top: thick solid salmon;
+}
+
+#img2{
+    
+        width: 300px;
+        height: auto;
+        text-align: center;
+}
+#img3{
+    width: 50px;
+    height: auto;
+    
+}
+.img3{
+  
+
+}

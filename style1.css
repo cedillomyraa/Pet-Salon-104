@@ -1,0 +1,54 @@
+/*global*/
+*{
+    margin:0;
+    padding:0;
+}
+
+body{
+    background-color: lightgray;
+    font-family: papyrus;
+    text-align: center;
+    line-height: 2;
+    
+    border: solid salmon;
+    border-width: thick;
+    
+}
+.nav{
+    padding: 20px;
+    
+    margin-block-end: 15px;
+    text-align: center;
+    font-family: papyrus;
+}
+nav a{
+    letter-spacing: 3px;
+    font-weight: bolder;
+    margin-right: 30px;
+    font-size: 20px;
+    color: rgb(241, 106, 91);
+    font-weight: bolder;
+    }
+
+.salonname{
+    color: rgb(241, 106, 91);
+    font-weight: bolder;
+    font-size: 50px;
+}
+
+#name{
+    color: rgb(105, 104, 104);
+}
+.area{
+    color: rgb(105, 104, 104);
+}
+
+#img1{
+        border-color: (241, 106, 91);
+        border: 7px;
+        width: 200px;
+        border-radius: 50%;
+        height: auto;
+        text-align: center;
+      
+}

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/register.css">
+    <title>Document</title> 
+</head>
+<body>
+    <header class="header">
+        <div class="header-title container">
+            <h1 class="salonname"> The Fashionable Pet</h1>
+            <h2 id="name">Your pets second home is here.</h2>
+            <h3 class="area">Denver, Colorado</h3>
+        </div>
+      
+        <nav class="nav">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="services.html">Services</a>
+            <a href="register.html">Register</a>
+        </nav>
+
+    </header>
+     <!--create a form with the following inputs name,age,gender,breed,service,owner,contact-->
+     <div class="input-container">
+         <h2>Register your pet </h2>
+         <div class="form-control">
+             <input type="text" id="txtName" placeholder="Pets Name">
+         </div>
+         <div class="form-control">
+            <input type="text" id="txtAge" placeholder="Pets Age">
+        </div>
+        <div class="form-control">
+            <input type="text" id="txtGender" placeholder="Pets Gender">
+        </div>
+        <div class="form-control">
+            <input type="text" id="txtBreed" placeholder="Pets Breed">
+        </div>
+        <div class="form-control">
+            <select class="select-class" id="selService">
+                <option value="Oral Cleaning">Oral Cleaning</option>
+                <option value="Nail Trim">Nail Trim</option>
+                <option value="Grooming">Grooming</option>
+                <option value="Full Bath">Full Bath</option>
+            </select>
+        </div> 
+        <div class="form-control">
+            <input type="text" id="txtOwner" placeholder="Owners Name">
+        </div>
+        <div class="form-control">
+            <input type="text" id="txtContact" placeholder="Contact number">
+        </div>
+        <button onclick="register()">Register</button>
+    </div>
+
+
+     <div>
+        <input type="text" id="txtSearch"placeholder="Enter a name"> 
+        <button onclick="searchPet()">Search</button>
+        <button id="btnClear" onclick="showPetsCards()">Clear</button>
+     </div>
+
+     <h2 id="headerList">Pets List</h2>
+
+     <div id="petList" class="pets">
+         <!--display the pets-->
+         
+     </div>
+
+     <footer class="footer">
+
+         <div id="salonInformation">
+    
+        </div>
+     </footer>
+
+    <script src="scripts/register.js"></script>
+    <script src="scripts/displayInfo.js"></script>
+</body>
+</html>
